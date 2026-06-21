@@ -1,0 +1,11 @@
+bind = "0.0.0.0:3389"
+username = "user"
+password = "pass"
+resolution = "1920x1200"
+capture_mode = "wlr"
+bitrate = 10000000
+quality = 23
+fps = 60
+egfx_codec = "avc420"
+# keyboard_layout_policy = "client"
+output = "eDP-1"
