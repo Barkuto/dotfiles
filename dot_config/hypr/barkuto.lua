@@ -20,5 +20,22 @@ hl.window_rule({
   workspace = "2"
 })
 
+hl.window_rule({
+  name = "vscode workspace 3",
+  match = {
+    class = "^(code)$",
+  },
+  workspace = "3"
+})
+
+
+hl.window_rule({
+  name = "zed workspace 3",
+  match = {
+    class = "^(.*zed.*)$",
+  },
+  workspace = "3"
+})
+
 hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd("dms ipc call spotlight toggle"))
 hl.bind("SUPER + SHIFT + F23", hl.dsp.exec_cmd("kitty"))
