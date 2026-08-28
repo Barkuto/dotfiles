@@ -10,5 +10,6 @@ set -gx EDITOR vim
 
 abbr -a fe 'eval $EDITOR (fzf)'
 abbr -a parus 'paru -S'
+abbr -a parur 'paru -Rns'
 
 zoxide init --cmd cd fish | source

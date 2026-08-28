@@ -9,6 +9,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("systemctl --user start hyprpolkitagent")
 	hl.exec_cmd("/home/iggie/.wifi_app_launch.sh")
 	hl.exec_cmd("firefox")
+	hl.exec_cmd("sleep 3 && cachy-update --tray")
 end)
 -- DMS_STARTUP_END
 
