@@ -28,7 +28,7 @@ paru -S --noconfirm hyprpolkitagent xdg-desktop-portal-hyprland gnome-keyring li
 paru -S --noconfirm firefox yazi cachy-update xdg-terminal-exec packet zed rustdesk-bin onlyoffice-bin betterbird-bin 
 paru -S --noconfirm cups-pk-helper ttf-fira-code inter-font
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
-paru -S --noconfirm chezmoi github-cli
+paru -S --noconfirm chezmoi github-cli tailscale
 paru -S --noconfirm qt6ct-kde gnome-themes-extra
 
 sudo ip rule add to 192.168.50.0/24 priority 5000 table main
