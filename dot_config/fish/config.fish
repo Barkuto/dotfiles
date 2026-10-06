@@ -12,4 +12,6 @@ abbr -a fe 'eval $EDITOR (fzf)'
 abbr -a parus 'paru -S'
 abbr -a parur 'paru -Rns'
 
+alias ssh="kitten ssh"
+
 zoxide init --cmd cd fish | source
