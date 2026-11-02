@@ -37,7 +37,8 @@ hl.window_rule({
   workspace = "3"
 })
 
-hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd("dms ipc call spotlight toggle"))
+
+hl.bind("SUPER_L", hl.dsp.exec_cmd("dms ipc call spotlight toggle"), {release = true})
 hl.bind("SUPER + SHIFT + F23", hl.dsp.exec_cmd("kitty"))
 hl.bind("Control_R", hl.dsp.exec_cmd("kitty"))
 
