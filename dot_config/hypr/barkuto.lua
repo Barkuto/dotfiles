@@ -42,6 +42,6 @@ hl.bind("SUPER_L", hl.dsp.exec_cmd("dms ipc call spotlight toggle"), {release = 
 hl.bind("SUPER + SHIFT + F23", hl.dsp.exec_cmd("kitty"))
 hl.bind("Control_R", hl.dsp.exec_cmd("kitty"))
 
-hl.workspace_rule{ workspace = "2", monitor = "DP-9" }
-hl.workspace_rule{ workspace = "1", monitor = "DP-10" }
-hl.workspace_rule{ workspace = "3", monitor = "DP-8" }
+hl.workspace_rule{ workspace = "2", monitor = "desc:LG Electronics LG ULTRAGEAR 101NTJJ6U876" }
+hl.workspace_rule{ workspace = "1", monitor = "desc:Ancor Communications Inc ASUS PB238 H5LMTF032621" }
+hl.workspace_rule{ workspace = "3", monitor = "desc:Acer Technologies KG271U N3 1322131231233" }
